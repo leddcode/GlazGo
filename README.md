@@ -1,3 +1,14 @@
+> ⚠️ **Disclaimer**
+>
+> The development of **GlazGo** has progressed significantly beyond the version previously uploaded to this GitHub repository.
+>
+> At this time, the **latest source code will not be shared publicly**. Only compiled `.exe` releases will be made available for download through the official release section.
+>
+> This approach allows for cleaner releases while development continues in a more experimental and evolving form.
+>
+> Thanks for checking it out and supporting this early-stage project.
+
+
 # GlazGo
 Introducing a powerful fuzzing tool for pentesters and security researchers to investigate web applications and APIs. This tool is a compiled executable file that can be used when other tools are unavailable, such as when testing a web application in a black-box environment on a corporate machine. It helps to invetigate web apps and APIs by automating the process of providing expected and unexpected inputs in order to uncover application resources or to cause any unexpected behavior or crashes. 
 
