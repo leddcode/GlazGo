@@ -10,23 +10,30 @@
 
 
 # GlazGo
-Introducing a powerful fuzzing tool for pentesters and security researchers to investigate web applications and APIs. This tool is a compiled executable file that can be used when other tools are unavailable, such as when testing a web application in a black-box environment on a corporate machine. It helps to invetigate web apps and APIs by automating the process of providing expected and unexpected inputs in order to uncover application resources or to cause any unexpected behavior or crashes. 
 
-# Usage
-To use GlazGo, you will need to provide the URL of the website or application that you want to test.
-The URL should contain the string "FUZZ" where you want the tool to inject test data.
+**GlazGo** is a blazing-fast, customizable HTTP fuzzer written in Go, designed for **security researchers and penetration testers**. It helps assess the robustness of web endpoints through GET and POST fuzzing. With a clean **WebView-based GUI**, GlazGo combines speed, usability, and deep insights.
 
-You can also provide additional headers and cookies to include in the request.
+> ⚠️ **Legal Disclaimer:**  
+> GlazGo is intended **only for use in authorized security testing and research**.  
+> Do **NOT** use this tool against systems or networks without **explicit permission**.  
+> Misuse may violate laws and ethical guidelines. You are solely responsible for your actions.
 
-To start the fuzzing process, you will need to run the tool and provide it with a list of test data to use.
-This can be a list of words, numbers, or special characters. The tool will then send requests to the URL with
-the test data injected at the "FUZZ" location and analyze the response for any errors or vulnerabilities.
+---
 
-For example, if you have a URL of "https://example.com/dir/FUZZ" and a list of test data that includes the words "test1" and "test2"
-the tool will send requests to "https://example.com/dir/test1" and "https://example.com/dir/test2" and look for any issues in the response.
+## ✨ Features
 
-# Disclaimer
-Using GlazGo for fuzzing targets without obtaining prior consent is illegal. The user assumes all responsibility for their use of the tool.
+- 🚀 **Fast and Efficient Fuzzing** – Optimized for speed and performance.
+- 🧪 **Supports GET & POST** – Easily test various HTTP methods.
+- 🧰 **Customizable Payloads** – Define your own inputs, headers, and rules.
+- 📊 **Real-time Statistics** – Visual feedback on fuzzing progress, hit rates, and more.
+- 📝 **Detailed Logging** – View and export results and errors with ease.
+- 🖥️ **Built-in GUI** – Seamless interaction using WebView technology.
 
-Keep in mind that fuzzing can generate a large number of requests and may potentially cause issues with the website or application being tested.
-It is important to use caution and obtain permission before fuzzing any production systems.
+---
+
+## 📸 GUI Preview
+
+![image](https://github.com/user-attachments/assets/07377897-f2c0-4c10-95f4-a561ecb7ae36)
+
+
+
